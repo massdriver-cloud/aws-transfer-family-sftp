@@ -1,0 +1,31 @@
+schema: draft-07
+name: "aws-transfer-family-sftp"
+description: "AWS Transfer Family SFTP is a secure transfer service utilizing the SFTP protocol that enables you to transfer files into and out of AWS storage services."
+ref: github.com/massdriver-cloud/aws-transfer-family-sftp
+access: "public"
+type: "bundle"
+
+params:
+  properties: {}
+
+connections:
+  required:
+  - aws_authentication
+  - aws_efs_file_system
+  properties:
+    aws_authentication:
+      $ref: massdriver/aws-iam-role
+    aws_efs_file_system:
+      $ref: massdriver/aws-efs-file-system
+
+artifacts:
+  properties: {}
+  # required:
+  #   - network
+  # properties:
+  #   network:
+  #     $ref: massdriver/aws-vpc
+
+ui:
+  ui:order:
+    - "*"
