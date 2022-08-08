@@ -13,7 +13,7 @@ locals {
     "us-gov-west-1"
   ]
   // FIPS only supported in certain regions
-  transfer_security_policy = contains(local.regions_supporting_fips, local.region) ? "TransferSecurityPolicy-FIPS-2020-06" : "TransferSecurityPolicy-2022-03"
+  transfer_security_policy = contains(local.regions_supporting_fips, local.region) ? "TransferSecurityPolicy-FIPS-2020-06" : "TransferSecurityPolicy-2020-06"
 }
 
 resource "tls_private_key" "main" {
