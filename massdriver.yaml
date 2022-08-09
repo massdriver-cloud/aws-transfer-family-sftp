@@ -19,12 +19,11 @@ connections:
       $ref: massdriver/aws-efs-file-system
 
 artifacts:
-  properties: {}
-  # required:
-  #   - network
-  # properties:
-  #   network:
-  #     $ref: massdriver/aws-vpc
+  required:
+    - sftp
+  properties:
+    sftp:
+      $ref: massdriver/sftp-authentication
 
 ui:
   ui:order:
