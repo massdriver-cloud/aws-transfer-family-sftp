@@ -51,7 +51,6 @@ Security and compliance scanning of our bundles is performed using [Bridgecrew](
 | [![NIST-800-53](https://www.bridgecrew.cloud/badges/github/massdriver-cloud/aws-transfer-family-sftp/nist)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=massdriver-cloud%2Faws-transfer-family-sftp&benchmark=NIST-800-53) | National Institute of Standards and Technology Compliance |
 | [![ISO27001](https://www.bridgecrew.cloud/badges/github/massdriver-cloud/aws-transfer-family-sftp/iso)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=massdriver-cloud%2Faws-transfer-family-sftp&benchmark=ISO27001) | Information Security Management System, ISO/IEC 27001 Compliance |
 | [![SOC2](https://www.bridgecrew.cloud/badges/github/massdriver-cloud/aws-transfer-family-sftp/soc2)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=massdriver-cloud%2Faws-transfer-family-sftp&benchmark=SOC2)| Service Organization Control 2 Compliance |
-| [![CIS GCP](https://www.bridgecrew.cloud/badges/github/massdriver-cloud/aws-transfer-family-sftp/cis_gcp)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=massdriver-cloud%2Faws-transfer-family-sftp&benchmark=CIS+GCP+V1.1) | Center for Internet Security, GCP Compliance |
 | [![HIPAA](https://www.bridgecrew.cloud/badges/github/massdriver-cloud/aws-transfer-family-sftp/hipaa)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=massdriver-cloud%2Faws-transfer-family-sftp&benchmark=HIPAA) | Health Insurance Portability and Accountability Compliance |
 
 <!-- COMPLIANCE:END -->
@@ -139,6 +138,7 @@ Please connect with us!
 [![LinkedIn][linkedin_shield]][linkedin_url]
 [![Twitter][twitter_shield]][twitter_url]
 [![YouTube][youtube_shield]][youtube_url]
+[![Reddit][reddit_shield]][reddit_url]
 
 <!-- markdownlint-disable -->
 
