@@ -11,15 +11,15 @@ connections:
   - aws_efs_file_system
   properties:
     aws_authentication:
-      "$ref": massdriver/aws-iam-role
+      "$ref": aws-iam-role
     aws_efs_file_system:
-      "$ref": massdriver/aws-efs-file-system
+      "$ref": aws-efs-file-system
 artifacts:
   required:
   - sftp
   properties:
     sftp:
-      "$ref": massdriver/sftp-authentication
+      "$ref": sftp-authentication
 ui:
   ui:order:
   - "*"

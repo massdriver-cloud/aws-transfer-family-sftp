@@ -1,7 +1,6 @@
 resource "massdriver_artifact" "sftp" {
-  field                = "sftp"
-  provider_resource_id = aws_transfer_server.main.arn
-  name                 = "AWS Transfer Family SFTP Server: ${aws_transfer_server.main.arn}"
+  field    = "sftp"
+  name     = "AWS Transfer Family SFTP Server: ${aws_transfer_server.main.arn}"
   artifact = jsonencode(
     {
       data = {
